@@ -1,0 +1,35 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Entorno virtual
+venv/
+env/
+.venv/
+
+# Configuración de entorno
+.env
+
+# Base de datos SQLite
+db.sqlite3
+
+# Archivos de migración
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Archivos de caché y estáticos generados
+**/staticfiles/**
+**/media/**
+**/cache/
+
+# Archivos de IDE/editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Otros
+.DS_Store
+Thumbs.db
